@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import "./helper/mixin";
+@import "./helper/common";
+@import "./helper/variables";
+
+body {
+  font-family: $body-font-family;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #fff;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.header {
+  height: 100px;
+  background: #ccc;
+}
+
+.nav {
+  height: 50px;
+  background: #d8f0fe;
+}
+
+.content {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+  min-height: 300px;
+}
+
+.section {
+  width: 70%;
+  float: left;
+}
+
+.post {
+  clear: both;
+  margin-bottom: 10px;
+  border: solid 1px #ccc;
+}
+
+.slider {
+  width: 29%;
+  float: right;
+  border: solid 1px #ccc;
+}
+
+.copyright {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 3;
+}

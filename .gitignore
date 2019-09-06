@@ -1,4 +1,3 @@
 .sass-cache/
 *.css.map
-dist/*
-!dist/img
+!prepros-6.config
